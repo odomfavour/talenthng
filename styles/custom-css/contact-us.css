@@ -75,6 +75,15 @@ textarea {
     min-height: 169px !important;
 }
 
+#error-message {
+    width: 348px !important;
+    color: #fff;
+}
+#success-message {
+    width: 348px !important;
+    color: #fff;
+
+}
 .form-control {
   border: 1px solid #C5C5C5 !important;
   
@@ -178,6 +187,13 @@ textarea {
   textarea {
     width: 493px !important;
   }
+
+  #error-message {
+    width: 493px !important;
+}
+#success-message {
+    width: 493px !important;
+}
 }
 
 @media screen and (min-width: 1440px){
