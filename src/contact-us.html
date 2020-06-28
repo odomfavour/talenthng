@@ -112,7 +112,10 @@
 
     <div class="row align-items-center justify-content-center">
       <div class="col-12 ">
-        <form class="d-flex flex-column justify-content-center align-items-center">
+          
+        <form class="d-flex flex-column justify-content-center align-items-center" id="contact-form">
+            <p class="text-center py-2" id="error-message"></p>
+            <p class="text-center py-2" id="success-message"></p>
           <div class="form-group">
             <label for="clientName" class="sr-only">Your name</label>
             <input type="text" class="form-control p-3" id="clientName" placeholder="Your name*">
@@ -212,6 +215,8 @@
   <script src="../js/bootstrap-js/popper.js"></script>
   <script src="../js/bootstrap-js/jquery.js"></script>
   <script src="../js/bootstrap-js/bootstrap.js"></script>
+  <script src="../js/custom-js/contact.js"></script>
+
 </body>
 
 </html>
