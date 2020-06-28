@@ -65,6 +65,8 @@
 
 input {
     height: 56px !important;
+    width: 348px !important;
+    max-width: 100%;
 }
 
 .form-control {
@@ -103,6 +105,10 @@ input {
 @media screen and (max-width: 760px){
    .toplayer {
     height: 900px;
+  }
+
+  .card {
+    max-width: 100% !important;
   }
 
   .office {
@@ -157,6 +163,14 @@ input {
   }
   .hero {
     height: 378px;
+  }
+
+  input {
+    width: 493px !important;
+  }
+
+  textarea {
+    width: 493px !important;
   }
 }
 
